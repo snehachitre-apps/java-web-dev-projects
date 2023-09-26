@@ -36,6 +36,7 @@ public abstract class BaseDisc {
     }
 
     public String writeData(int dataSize){
+        //add conditional at this line : dataSize < 0
         if (dataSize > remainingCapacity){
             return "Not enough disc space!";
         }
