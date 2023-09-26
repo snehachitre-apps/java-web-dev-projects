@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println(cd.writeData(275));
         //change to -99 for conditional break test
-        System.out.println(dvd.writeData(8000));
+        System.out.println(dvd.writeData(-999));
 
         System.out.println(cd.diskInfo());
         System.out.println(dvd.diskInfo());
